@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentButton">
+
+    <Button
+        android:id="@+id/buttonBeranda"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:text="Beranda"
+        android:background="#40000000"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGendol"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:background="#40000000"
+        android:text="Sungai Gendol"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBeranda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonBeranda"
+        app:layout_constraintTop_toTopOf="@+id/buttonBeranda"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonPutih1"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="42dp"
+        android:background="#40000000"
+        android:text="Sungai Putih 1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonBeranda"
+        app:layout_constraintTop_toTopOf="@+id/buttonGendol" />
+
+    <Button
+        android:id="@+id/buttonPutih2"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="84dp"
+        android:background="#40000000"
+        android:text="Sungai Putih 2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonBeranda"
+        app:layout_constraintTop_toTopOf="@+id/buttonBeranda" />
+</androidx.constraintlayout.widget.ConstraintLayout>
